@@ -1,0 +1,53 @@
+{
+    "activeFile": "map.tmx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "全部文件 (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 0.1954,
+            "scaleInEditor": 1
+        },
+        "/Users/zykj-zengdejin/practice/navmesh/packages/examples-phaser3/src/demo/map.tmx": {
+            "scale": 0.9994,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 376.2257354412648,
+                "y": 375.7254352611567
+            }
+        },
+        "/Users/zykj-zengdejin/practice/navmesh/packages/examples-phaser3/src/demo/map.tmx#tiles": {
+            "scaleInDock": 1
+        },
+        "map.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.9172,
+            "selectedLayer": 33,
+            "viewCenter": {
+                "x": 613.8246838203227,
+                "y": 287.28739642389877
+            }
+        },
+        "map.tmx#tiles": {
+            "scaleInDock": 0.6523
+        },
+        "tiles.tsx": {
+            "scaleInDock": 0.3796,
+            "scaleInEditor": 0.3647
+        }
+    },
+    "last.exportedFilePath": "/Users/zykj-zengdejin/practice/navmesh/packages/examples-phaser3/src/demo/tilemaps",
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "openFiles": [
+        "map.tmx"
+    ],
+    "project": "map.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "map.tmx",
+        "tiles.tsx",
+        "/Users/zykj-zengdejin/practice/navmesh/packages/examples-phaser3/src/demo/map.tmx"
+    ]
+}

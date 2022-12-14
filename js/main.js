@@ -11,7 +11,7 @@ const game = new Phaser.Game({
       {
         // PhaserNavMeshPlugin 为自动寻路库 已在index.html中引入
         key: "NavMeshPlugin", // 指定库名
-        plugin: PhaserNavMeshPlugin, // Class that constructs plugins
+        plugin: PhaserNavMeshPlugin,
         mapping: "navMeshPlugin", // 属性名
         start: true,
       },

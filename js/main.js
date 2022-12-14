@@ -1,9 +1,5 @@
-import Phaser from "phaser";
-import Load from "./scenes/load";
-import Start from "./scenes/start";
-import { PhaserNavMeshPlugin } from "phaser-navmesh";
-
 const game = new Phaser.Game({
+  // 初始化地图配置
   type: Phaser.AUTO,
   parent: "game-container",
   width: 1500,
@@ -13,9 +9,10 @@ const game = new Phaser.Game({
   plugins: {
     scene: [
       {
-        key: "NavMeshPlugin", // Key to store the plugin class under in cache
+        // PhaserNavMeshPlugin 为自动寻路库 已在index.html中引入
+        key: "NavMeshPlugin", // 指定库名
         plugin: PhaserNavMeshPlugin, // Class that constructs plugins
-        mapping: "navMeshPlugin", // Property mapping to use for the scene, e.g. this.navMeshPlugin
+        mapping: "navMeshPlugin", // 属性名
         start: true,
       },
     ],
@@ -27,7 +24,7 @@ const game = new Phaser.Game({
     },
   },
 });
-
+// 添加场景、绑定函数
 game.scene.add("load", Load);
 game.scene.add("start", Start);
 game.scene.start("load");

@@ -1,7 +1,6 @@
 class Start extends Phaser.Scene {
   create() {
     // -- 根据 tileMap 生成的地图进行设置 --
-
     // 从 phaser 缓存中加载 tilemap
     const tilemap = this.add.tilemap("map");
 
